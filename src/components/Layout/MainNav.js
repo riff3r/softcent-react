@@ -7,7 +7,7 @@ const MainNav = () => {
   return (
     <div class="main-nav">
       <div class="logo">
-        <img src={logo} alt="" />
+        <img src={logo} alt="Softcent Logo" />
       </div>
 
       <button

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Hero from "./Hero";
 
 import MainNav from "./MainNav";

@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
 
       <div class="hero-bg">
-        <img src={tack} alt="" />
+        <img src={tack} alt="Hero section Background" />
       </div>
     </section>
   );
