@@ -8,12 +8,55 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const OurCustomer = () => {
+  const customers = [
+    {
+      id: 1,
+      name: "UBS",
+      image: customerOne,
+    },
+    {
+      id: 2,
+      name: "HSBC",
+      image: customerTwo,
+    },
+    {
+      id: 3,
+      name: "Myfitlab",
+      image: customerThree,
+    },
+    {
+      id: 4,
+      name: "Appsero",
+      image: customerFour,
+    },
+    {
+      id: 5,
+      name: "UBS",
+      image: customerOne,
+    },
+    {
+      id: 6,
+      name: "HSBC",
+      image: customerTwo,
+    },
+    {
+      id: 7,
+      name: "Myfitlab",
+      image: customerThree,
+    },
+    {
+      id: 8,
+      name: "Appsero",
+      image: customerFour,
+    },
+  ];
   const settings = {
     dots: false,
     infinite: true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
@@ -50,50 +93,13 @@ const OurCustomer = () => {
         </h2>
 
         <Slider {...settings}>
-          <div>
-            <h3>
-              <img src={customerOne} alt="UBS" />
-            </h3>
-          </div>
-          <div>
-            <h3>
-              <img src={customerTwo} alt="HSBC" />
-            </h3>
-          </div>
-          <div>
-            <h3>
-              <img src={customerThree} alt="Myfitlab" />
-            </h3>
-          </div>
-          <div>
-            <h3>
-              <img src={customerFour} alt="Appsero" />
-            </h3>
-          </div>
-
-          <div>
-            <h3>
-              <img src={customerTwo} alt="HSBC" />
-            </h3>
-          </div>
-
-          <div>
-            <h3>
-              <img src={customerThree} alt="Myfitlab" />
-            </h3>
-          </div>
-
-          <div>
-            <h3>
-              <img src={customerOne} alt="UBS" />
-            </h3>
-          </div>
-
-          <div>
-            <h3>
-              <img src={customerFour} alt="Appsero" />
-            </h3>
-          </div>
+          {customers.map((customer) => (
+            <div key={customer.id}>
+              <h3>
+                <img src={customer.image} alt={customer.name} />
+              </h3>
+            </div>
+          ))}
         </Slider>
       </div>
     </section>

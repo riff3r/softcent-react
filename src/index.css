@@ -662,6 +662,24 @@ nav a:active {
   margin-bottom: 5.3rem;
 }
 
+.about .slick-slider {
+  display: grid;
+}
+
+.about .slick-slider .slick-dots {
+  bottom: 10%;
+  right: 30%;
+}
+
+.about .slick-dots li button:before {
+  font-size: 1.6rem;
+  color: rgb(137 177 233);
+}
+
+.about .slick-dots li.slick-active button:before {
+  color: var(--clr-primary-dark);
+}
+
 .testimonial-text {
   font-size: 2rem;
   font-weight: 500;
@@ -1037,6 +1055,11 @@ nav a:active {
   nav a:visited {
     font-size: 1.4rem;
   }
+
+  .about .slick-slider .slick-dots {
+    bottom: 0%;
+    right: 30%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -1099,6 +1122,11 @@ nav a:active {
   .footer-section-main {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
+  }
+
+  .about .slick-slider .slick-dots {
+    bottom: 0%;
+    right: 20%;
   }
 }
 
@@ -1177,6 +1205,12 @@ nav a:active {
     font-size: 3vh;
   }
 
+  /* About */
+
+  .about-image {
+    display: none;
+  }
+
   .products-header-text button {
     flex-basis: auto;
   }
@@ -1196,5 +1230,10 @@ nav a:active {
 
   .footer-cta {
     gap: 3rem;
+  }
+
+  .about .slick-slider .slick-dots {
+    bottom: -10%;
+    right: 30%;
   }
 }
