@@ -12,7 +12,7 @@ const AboutUs = () => {
       name: "Shuvo Roy",
       designation: "Softcent Co-Founder",
       description:
-        "We had a bit of a slow and bumpy start, but after changing the designer on their side everything went in a very good direction. The designers were talented and easy to work with.",
+        "We had a bit of a slow and bumpy start, but after changing the designer on their side everything went in a very good direction. The designers were talented and easy to work with. Good Luck",
       image: ellipse,
     },
 
