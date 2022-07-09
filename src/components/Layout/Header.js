@@ -5,8 +5,8 @@ import Video from "./Video";
 
 const Header = () => {
   return (
-    <header class="header">
-      <div class="container">
+    <header className="header">
+      <div className="container">
         <MainNav />
         <Hero />
         <Video />

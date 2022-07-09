@@ -7,16 +7,16 @@ import ai from "../Assets/images/design-tech/image-9.png";
 
 const DesignTechnology = () => {
   return (
-    <section class="technology-design">
-      <div class="design-header">
-        <h2 class="primary-Heading">
+    <section className="technology-design">
+      <div className="design-header">
+        <h2 className="primary-Heading">
           <span>Our Design Technology</span>
         </h2>
       </div>
 
-      <div class="design-content">
-        <div class="container">
-          <div class="design-lists">
+      <div className="design-content">
+        <div className="container">
+          <div className="design-lists">
             <ul>
               <li>
                 <img src={figma} alt="" />

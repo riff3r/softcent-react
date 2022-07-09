@@ -2,10 +2,10 @@ import React from "react";
 
 const PricingPackage = () => {
   return (
-    <section class="pricing">
-      <div class="container">
-        <div class="pricing-header">
-          <div class="primary-Heading">
+    <section className="pricing">
+      <div className="container">
+        <div className="pricing-header">
+          <div className="primary-Heading">
             <h2>Pricing Package Choose Your Plan</h2>
           </div>
 
@@ -16,20 +16,20 @@ const PricingPackage = () => {
           </p>
 
           <div>
-            <button class="btn btn-accent">Monthly</button>
-            <button class="btn">Yearly</button>
+            <button className="btn btn-accent">Monthly</button>
+            <button className="btn">Yearly</button>
           </div>
         </div>
 
-        <div class="pricing-cards">
-          <div class="grid grid--3-cols">
-            <div class="pricing-card">
-              <div class="pricing-card-header">
+        <div className="pricing-cards">
+          <div className="grid grid--3-cols">
+            <div className="pricing-card">
+              <div className="pricing-card-header">
                 <h2>Merketing</h2>
                 <h3>$899/ mo</h3>
               </div>
-              <div class="pricing-card-body">
-                <ul class="pricing-service">
+              <div className="pricing-card-body">
+                <ul className="pricing-service">
                   <li>Dedicated Designer</li>
                   <li>Unlimited requests</li>
                   <li>Unlimited brand profiles</li>
@@ -42,18 +42,18 @@ const PricingPackage = () => {
                 </ul>
               </div>
 
-              <div class="pricing-submit">
-                <button class="pricing-button">$899 / mo</button>
+              <div className="pricing-submit">
+                <button className="pricing-button">$899 / mo</button>
               </div>
             </div>
 
-            <div class="pricing-card focused">
-              <div class="pricing-card-header">
+            <div className="pricing-card focused">
+              <div className="pricing-card-header">
                 <h2>UI/UX Design</h2>
                 <h3>$1000/ mo</h3>
               </div>
-              <div class="pricing-card-body">
-                <ul class="pricing-service">
+              <div className="pricing-card-body">
+                <ul className="pricing-service">
                   <li>Dedicated Designer</li>
                   <li>Unlimited requests</li>
                   <li>Unlimited brand profiles</li>
@@ -66,18 +66,18 @@ const PricingPackage = () => {
                 </ul>
               </div>
 
-              <div class="pricing-submit">
-                <button class="pricing-button">$899 / mo</button>
+              <div className="pricing-submit">
+                <button className="pricing-button">$899 / mo</button>
               </div>
             </div>
 
-            <div class="pricing-card">
-              <div class="pricing-card-header">
+            <div className="pricing-card">
+              <div className="pricing-card-header">
                 <h2>Development</h2>
                 <h3>$1000/ mo</h3>
               </div>
-              <div class="pricing-card-body">
-                <ul class="pricing-service">
+              <div className="pricing-card-body">
+                <ul className="pricing-service">
                   <li>Dedicated Designer</li>
                   <li>Unlimited requests</li>
                   <li>Unlimited brand profiles</li>
@@ -90,8 +90,8 @@ const PricingPackage = () => {
                 </ul>
               </div>
 
-              <div class="pricing-submit">
-                <button class="pricing-button">$899 / mo</button>
+              <div className="pricing-submit">
+                <button className="pricing-button">$899 / mo</button>
               </div>
             </div>
           </div>

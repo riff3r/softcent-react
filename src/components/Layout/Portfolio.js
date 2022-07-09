@@ -25,27 +25,27 @@ const portfolioItem = [
 
 const Portfolio = () => {
   return (
-    <section class="portfolio">
-      <div class="container">
-        <div class="portfolio-header">
-          <h2 class="secondary-Heading">
+    <section className="portfolio">
+      <div className="container">
+        <div className="portfolio-header">
+          <h2 className="secondary-Heading">
             <span>Our Portfolio</span>
           </h2>
 
-          <div class="portfolio-button">
+          <div className="portfolio-button">
             <button>
               <img src={arrowLeft} alt="" />
             </button>
-            <button class="portfolio-button-active">
+            <button className="portfolio-button-active">
               <img src={arrowright} alt="" />
             </button>
           </div>
         </div>
 
-        <div class="portfolio-content">
-          <div class="grid grid--3-cols">
+        <div className="portfolio-content">
+          <div className="grid grid--3-cols">
             {portfolioItem?.map((item) => (
-              <div class="portfolio-card">
+              <div key={item.id} className="portfolio-card">
                 <img src={item.image} alt={item.title} />
 
                 <h2>{item.title}</h2>
@@ -54,8 +54,8 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="text-center">
-          <button class="btn">See All Protfolio</button>
+        <div className="text-center">
+          <button className="btn">See All Protfolio</button>
         </div>
       </div>
     </section>

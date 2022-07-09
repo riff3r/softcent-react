@@ -7,19 +7,19 @@ import box from "../Assets/images/dev-tech/image-9.png";
 
 const DevTechnology = () => {
   return (
-    <section class="technology-dev">
-      <div class="container">
-        <div class="dev-header">
-          <h2 class="primary-Heading">
+    <section className="technology-dev">
+      <div className="container">
+        <div className="dev-header">
+          <h2 className="primary-Heading">
             <span>Our Dev Technology</span>
           </h2>
         </div>
 
-        <div class="dev-content">
-          <div class="dev-language">
+        <div className="dev-content">
+          <div className="dev-language">
             <ul>
               <li>
-                <a class="active" href="#">
+                <a className="active" href="#">
                   Programming Languages
                 </a>
               </li>
@@ -35,7 +35,7 @@ const DevTechnology = () => {
             </ul>
           </div>
 
-          <div class="dev-lists">
+          <div className="dev-lists">
             <ul>
               <li>
                 <img src={php} alt="" />

@@ -7,31 +7,31 @@ import instagram from "../Assets/images/footer/instagram.png";
 
 const Footer = () => {
   return (
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-cta">
+    <footer className="footer">
+      <div className="container">
+        <div className="footer-cta">
           <h2>
             Looking for a <br />
             Software Partner?
           </h2>
-          <button class="btn btn-accent">Start A Project</button>
+          <button className="btn btn-accent">Start A Project</button>
         </div>
 
-        <div class="footer-section-main">
-          <div class="footer-contact">
-            <img class="footer-logo" src={logo} alt="Footer Logo" />
+        <div className="footer-section-main">
+          <div className="footer-contact">
+            <img className="footer-logo" src={logo} alt="Footer Logo" />
 
-            <p class="footer-contact--des">
+            <p className="footer-contact--des">
               Get a fully stacked design team that will <br />
               give you accessible design, exhaustive <br />
               research, and an outstanding experience.
             </p>
 
-            <p class="footer-contact--email">Email: info@softcent.eu</p>
+            <p className="footer-contact--email">Email: info@softcent.eu</p>
 
-            <p class="footer-contact--phone">Phone: +(372) 57836500</p>
+            <p className="footer-contact--phone">Phone: +(372) 57836500</p>
 
-            <div class="footer-social">
+            <div className="footer-social">
               <a href="#">
                 <img src={facebook} alt="facebook" />
               </a>
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="footer-company">
+          <div className="footer-company">
             <h3>Company</h3>
 
             <ul>
@@ -76,7 +76,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="footer-service">
+          <div className="footer-service">
             <h3>Our Service</h3>
 
             <ul>
@@ -98,7 +98,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="footer-supports">
+          <div className="footer-supports">
             <h3>Supports</h3>
             <ul>
               <li>
@@ -120,7 +120,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="copyright">© 2022, Softcent EU, A European IT company</div>
+        <div className="copyright">
+          © 2022, Softcent EU, A European IT company
+        </div>
       </div>
     </footer>
   );

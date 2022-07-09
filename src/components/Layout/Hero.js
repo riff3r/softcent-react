@@ -3,10 +3,10 @@ import tack from "../Assets/images/tic-tack-bg.png";
 
 const Hero = () => {
   return (
-    <section class="hero-section">
-      <div class="hero-text">
-        <h1 class="hero-headline">
-          <span class="hero-underline">Software</span> services for <br />
+    <section className="hero-section">
+      <div className="hero-text">
+        <h1 className="hero-headline">
+          <span className="hero-underline">Software</span> services for <br />
           startups without
           <br />
           limits..
@@ -19,7 +19,7 @@ const Hero = () => {
         </p>
       </div>
 
-      <div class="hero-bg">
+      <div className="hero-bg">
         <img src={tack} alt="Hero section Background" />
       </div>
     </section>
