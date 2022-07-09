@@ -1009,12 +1009,6 @@ nav a:active {
   border-top: 1px solid rgba(4, 4, 21, 0.16);
 }
 
-/* .footer-section-main .footer-company h3, 
-.footer-section-main .footer-service h3,
-.footer-section-main .footer-supports h3{
-
-} */
-
 /* Breakpoints */
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1224,10 +1218,3 @@ nav a:active {
     gap: 3rem;
   }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (max-width: 600px) {
-  .nav-bar {
-    gap: 50rem;
-  }
-} */
